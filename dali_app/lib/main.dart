@@ -114,7 +114,7 @@ class HomeScreen extends StatelessWidget {
       'title': 'Ренессанс',
       'years': 'XIV–XVI вв.',
       'description': 'Великая эпоха Возрождения, перевернувшая взгляд на мир. Художники вновь обратились к античным идеалам красоты, воспевая гармонию и величие человека. Именно в это время были открыты законы линейной перспективы, светотени и точной анатомии, что сделало картины невероятно реалистичными и глубокими.',
-      'image': phCover, // заглушка
+      'image': 'assets/images/ren_cover.jpg', // локальная картинка
     },
     {
       'title': 'Барокко',
@@ -274,6 +274,16 @@ class MovementDetailScreen extends StatelessWidget {
         {'title': 'Портрет четы Арнольфини', 'author': 'Ян ван Эйк', 'year': '1434', 'museum': 'Национальная галерея, Лондон', 'image': 'assets/images/gothic_4.jpg'},
         {'title': 'Сад земных наслаждений', 'author': 'Иероним Босх', 'year': '1500–1510', 'museum': 'Музей Прадо, Мадрид', 'image': 'assets/images/gothic_5.jpg'},
         {'title': 'Маэста', 'author': 'Чимабуэ', 'year': '1280', 'museum': 'Галерея Уффици, Флоренция', 'image': 'assets/images/gothic_6.jpg'},
+      ];
+    } else if (title == 'Ренессанс') {
+      // добавляем картины для ренессанса
+      return [
+        {'title': 'Сикстинская Мадонна', 'author': 'Рафаэль Санти', 'year': '1512', 'museum': 'Галерея старых мастеров, Дрезден', 'image': 'assets/images/ren_1.jpg'},
+        {'title': 'Рождение Венеры', 'author': 'Сандро Боттичелли', 'year': '1486', 'museum': 'Галерея Уффици, Флоренция', 'image': 'assets/images/ren_2.jpg'},
+        {'title': 'Создание Адама', 'author': 'Микеланджело', 'year': '1512', 'museum': 'Сикстинская капелла, Ватикан', 'image': 'assets/images/ren_3.jpg'},
+        {'title': 'Тайная вечеря', 'author': 'Леонардо да Винчи', 'year': '1495–1498', 'museum': 'Санта-Мария-делле-Грацие, Милан', 'image': 'assets/images/ren_4.jpg'},
+        {'title': 'Афинская школа', 'author': 'Рафаэль Санти', 'year': '1511', 'museum': 'Апостольский дворец, Ватикан', 'image': 'assets/images/ren_5.jpg'},
+        {'title': 'Венера Урбинская', 'author': 'Тициан', 'year': '1538', 'museum': 'Галерея Уффици, Флоренция', 'image': 'assets/images/ren_6.jpg'},
       ];
     }
 
